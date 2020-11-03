@@ -1,0 +1,89 @@
+.removedText {
+    display: none;
+}
+.container-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.container-name {
+    display: flex;
+    flex-direction: column;
+}
+.container-email {
+    display: flex;
+    flex-direction: column;
+}
+.container-phone {
+    display: flex;
+    flex-direction: column;
+}
+.container-password {
+    display: flex;
+    flex-direction: column;
+}
+.container-confirm {
+    display: flex;
+    flex-direction: column;
+}
+.container-phone {
+    display: flex;
+    flex-direction: column;
+}
+.container-address {
+    display: flex;
+    flex-direction: column;  
+}
+.container-city {
+    display: flex;
+    flex-direction: column;  
+}
+.container-cp {
+    display: flex;
+    flex-direction: column;  
+}
+.container-dni {
+    display: flex;
+    flex-direction: column;  
+}
+.container-age {
+    display: flex;
+    flex-direction: column;  
+}
+.btn-submit {
+    margin-top: 10px;
+}
+.container-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.errorText{
+    display: block;
+    max-width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-size: 12px;
+}
+
+.approvedText{
+    display: block;
+    max-width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    font-size: 12px;
+}
+
+.removedText{
+    display: none;
+}
+
+
+@media (min-width:900px) { 
+    .container-form {
+        display: flex;
+        flex-direction: row;
+    }
+}
